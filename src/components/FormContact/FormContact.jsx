@@ -36,7 +36,7 @@ const FormContact = ({ addContact }) => {
     <Formik initialValues={initialValue} validationSchema={schema} onSubmit={handleSubmit}>
       <Form autoComplete='off'>
       <LabelForm>
-        The name of the new contact
+        Name
         <Input
           type="text"
           name="name"
@@ -47,7 +47,7 @@ const FormContact = ({ addContact }) => {
         <ErrorError name='name' />
       </LabelForm>
         <LabelForm>
-          Phone number
+          Number
           <Input
             type="tel"
             name="number"

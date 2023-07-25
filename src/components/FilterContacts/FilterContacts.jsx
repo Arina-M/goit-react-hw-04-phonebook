@@ -5,7 +5,7 @@ import { LabelFilter, InputFilter } from "./FilterContacts.styled";
 const FilterContacts = ({ value, onChange }) => {
   return (
     <LabelFilter>
-      Filter
+      Find contacts by name
       <InputFilter
         type="text"
         value={value}
